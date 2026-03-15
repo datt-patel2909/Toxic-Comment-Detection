@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project-specific ignores
+data/*.csv
+!data/README.md
+models/*.pkl
+!models/.gitkeep
+
+outputs/*.png
+!outputs/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
+
+# Streamlit config (optional)
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
