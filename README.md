@@ -86,14 +86,6 @@ This opens a web interface where you can:
 - Choose between different ML models
 - View training results and charts
 
-### 4. Deploy to Web (Optional)
-To host your project online for free so anyone can use it:
-1. Push this project code to a public **GitHub repository**
-2. Important: Make sure `models/*.pkl` and `requirements.txt` are pushed to GitHub!
-   *(Note: The current `.gitignore` ignores `models/` because the files are large. To deploy, you must remove `models/*.pkl` from `.gitignore` first)*
-3. Go to [share.streamlit.io](https://share.streamlit.io) and log in with GitHub
-4. Click **New app**, select your repository, and set `app.py` as the main file path
-5. Click **Deploy!**
 
 ## 📈 Evaluation Outputs
 
