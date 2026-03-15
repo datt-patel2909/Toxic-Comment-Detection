@@ -16,7 +16,6 @@ data/*.csv
 models/*.pkl
 !models/.gitkeep
 
-outputs/*.png
 !outputs/.gitkeep
 
 # IDE settings
